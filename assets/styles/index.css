@@ -1,0 +1,141 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul li a {
+  color: #2a2d34 !important;
+}
+a {
+  color: #2a2d34;
+}
+
+p {
+  color: #2a2d34;
+  font-weight: 300;
+}
+header {
+  position: relative;
+}
+header .navbar-container {
+  position: absolute;
+  width: 100%;
+}
+header .navbar-container {
+  z-index: 2;
+}
+header .navbar-container .navbar-brand img {
+  width: 50px;
+}
+header .navbar-container .navbar-brand .brand-text {
+  line-height: 16px;
+}
+header .navbar-container .navbar-brand .brand-text {
+  display: none;
+}
+.slider-container .carousel-indicators {
+  justify-content: end;
+}
+.slider-container .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  border: 4px solid #2a2d34;
+  border-radius: 8px;
+}
+.slider-container .carousel-indicators .active {
+  background: #2a2d34;
+}
+.slider-container .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 32%;
+  transform: translateY(-50%);
+  left: 15%;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: left;
+}
+.slider-container .carousel-caption h5 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.slider-container .carousel-caption p {
+  color: #fff;
+}
+/* === About us === */
+.about {
+  padding: 72px 0;
+}
+.about a {
+  font-weight: 300;
+}
+/* === About us === */
+/* === Services === */
+.services {
+  padding: 72px 0;
+  background: #94bbd4;
+}
+.services a {
+  color: #fff;
+}
+.services .service-content-box svg {
+  color: #94bbd4;
+}
+/* === Services === */
+/* === Testimonials === */
+.testimonials {
+  padding: 72px 0;
+}
+/* === Testimonials === */
+/* === Footer  === */
+.footer {
+  padding: 72px 0;
+  background-color: #2a2d34;
+  color: #fff;
+}
+.footer p,
+.footer p.social_links a {
+  color: #fff;
+}
+.footer p.social_links a {
+  margin: 0 16px;
+}
+
+/* === Footer  === */
+
+@media (min-width: 768px) {
+  header .navbar-container .navbar-brand .brand-text {
+    display: block;
+  }
+  header .navbar-container .navbar-brand img {
+    width: 60px;
+  }
+  header .navbar-container .navbar-brand h2 {
+    font-weight: 700;
+    color: #2a2d34;
+    font-size: 28px;
+  }
+  header .navbar-container .navbar-brand p {
+    color: #2a2d34;
+  }
+  .slider-container .carousel-indicators [data-bs-target] {
+    width: 100px;
+    height: 75px;
+
+    border: 4px solid transparent;
+  }
+  .slider-container .carousel-indicators .active {
+    /* border: 4px solid #0a465d; */
+    border: 4px solid #fff;
+  }
+  .slider-container .carousel-indicators .slider-01-indicator {
+    background-image: url("../images/hotels-mini.jpg");
+  }
+  .slider-container .carousel-indicators .slider-02-indicator {
+    background-image: url("../images/curise-mini.jpg");
+  }
+  .slider-container .carousel-indicators .slider-03-indicator {
+    background-image: url("../images/hotel_booking_mini.jpg");
+  }
+}
