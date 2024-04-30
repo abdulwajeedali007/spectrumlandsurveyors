@@ -52,21 +52,35 @@ p {
 
   margin: 0;
 }
+/* === Banner === */
+.banner {
+  position: relative;
+}
+.banner .banner-content {
+  width: auto;
+  position: absolute;
 
+  left: 0;
+  bottom: 0;
+}
+.banner .banner-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+.banner .banner-content p {
+  color: #fff;
+}
+/* === Banner === */
 header {
   position: relative;
 }
 header .navbar-container {
-  /* position: absolute;
-  width: 100%; */
   background: var(--white-color);
-  /* background: rgba(255, 255, 255, 0.5);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px); */
 }
-/* header .navbar-container {
-  z-index: 2;
-} */
+
 header .navbar-container .navbar-brand {
   width: auto;
   height: 75px;
@@ -76,12 +90,6 @@ header .navbar-container .navbar-brand {
 header .navbar-container .navbar-brand img {
   height: 100%;
 }
-/* header .navbar-container .navbar-brand .brand-text {
-  line-height: 16px;
-}
-header .navbar-container .navbar-brand .brand-text {
-  display: none;
-} */
 .slider-container .carousel-indicators {
   justify-content: end;
 }
@@ -151,9 +159,6 @@ header .navbar-container .navbar-brand .brand-text {
   color: var(--light-blue-color);
   transform: translateX(5px);
 }
-/* .about .img-container {
-  box-shadow: 0 12px 18px -18px var(--text-color);
-} */
 /* === About us === */
 /* === Services === */
 .services {
@@ -197,13 +202,6 @@ header .navbar-container .navbar-brand .brand-text {
   height: 420px;
 }
 .services .content-container .description {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%; */
-
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -232,20 +230,22 @@ header .navbar-container .navbar-brand .brand-text {
   z-index: -1;
 }
 .service-btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: #fff; */
   width: 40px;
   height: 40px;
   background: var(--light-blue-color);
   padding: 16px;
   color: var(--text-color);
   border-radius: 50%;
-  line-height: 12px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   transition: all 0.3s linear;
 }
 .service-btn:hover {
   transform: rotate(0deg);
-  border-radius: 0;
+  border-radius: 8px;
   background: var(--white-color);
 }
 
@@ -294,7 +294,7 @@ header .navbar-container .navbar-brand .brand-text {
 }
 .testimonials .owl-carousel .owl-item .description::before,
 .testimonials .owl-carousel .owl-item .description::after {
-  font-family: "Font Awesome 6 Free";
+  font-family: "bootstrap-icons";
   color: var(--text-color);
   position: absolute;
   font-size: 40px;
@@ -302,14 +302,15 @@ header .navbar-container .navbar-brand .brand-text {
 }
 
 .testimonials .owl-carousel .owl-item .description::before {
-  content: "\f10d";
+  content: "\F6B0";
   top: 0;
   left: 0;
 }
 .testimonials .owl-carousel .owl-item .description::after {
-  content: "\f10e";
+  content: "\F6B0";
   bottom: 0;
   right: 0;
+  transform: rotate(180deg);
 }
 .testimonials .owl-carousel .owl-nav {
   position: absolute;
@@ -347,26 +348,109 @@ header .navbar-container .navbar-brand .brand-text {
 
 /* === Footer  === */
 
+/* === About us page === */
+.about .sub-heading h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--light-blue-color);
+}
+
+.aboutus-tag {
+  background: var(--text-color);
+  padding: 80px 0;
+}
+.aboutus-tag .content h3 {
+  font-size: 32px;
+  color: var(--light-golden-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+/* === About us page === */
+/* ===Services page */
+.services-page {
+  padding: 120px 0;
+}
+.services-page .serve .serve-title h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--light-blue-color);
+}
+.services-page .serve .serve-title {
+  position: relative;
+}
+.services-page .serve .serve-title::before {
+  position: absolute;
+  /* content: "01"; */
+  font-size: 72px;
+  font-weight: 600;
+  top: -40%;
+  left: 0;
+  opacity: 0.2;
+  color: var(--light-golden-color);
+}
+.services-page .serivce-item {
+  margin: 80px 0;
+  padding: 24px;
+}
+.services-page .serivce-item:nth-child(even) {
+  background: var(--light-blue-color);
+  border-radius: 20px;
+}
+.services-page .serve-title h2.even-title {
+  color: var(--white-color);
+}
+.services-page .serve .serve-title.visit-visa::before {
+  content: "01";
+}
+.services-page .serve .serve-title.umrah-package::before {
+  content: "02";
+}
+.services-page .serve .serve-title.holiday-package::before {
+  content: "03";
+}
+.services-page .serve .serve-title.ticket-reservation::before {
+  content: "04";
+}
+.services-page .serve .serve-title.transportation::before {
+  content: "05";
+}
+.services-page .serve .serve-title.hotel-booking::before {
+  content: "06";
+}
+.services-page .image-container {
+  position: relative;
+}
+.services-page .image-container img {
+  width: 100%;
+}
+.services-page .image-container::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  background: var(--text-color);
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 0 0 50% 0;
+}
+
+/* ===Services page */
+
 @media (min-width: 768px) {
+  /* ===Banner === */
+  .banner .banner-content {
+    left: 10%;
+    bottom: 24px;
+  }
+  .banner .banner-content h2 {
+    font-size: 40px;
+  }
+  /* ===Banner === */
   .heading {
     font-size: 36px;
   }
 
-  /* header .navbar-container .navbar-brand .brand-text {
-    display: block;
-  } */
-  /* header .navbar-container .navbar-brand {
-    width: 150px;
-    height: 50px;
-  } */
-  /* header .navbar-container .navbar-brand h2 {
-    font-weight: 700;
-    color: var(--text-color);
-    font-size: 28px;
-  }
-  header .navbar-container .navbar-brand p {
-    color: var(--text-color);
-  } */
   .slider-container .carousel-indicators [data-bs-target] {
     width: 100px;
     height: 75px;
@@ -419,4 +503,20 @@ header .navbar-container .navbar-brand .brand-text {
     width: 80%;
   }
   /* ===Testimonial us ===*/
+  /*=== About us page  */
+  .about .sub-heading h4 {
+    font-size: 40px;
+  }
+  .aboutus-tag .content h3 {
+    font-size: 40px;
+  }
+  /*=== About us page  */
+  /* ===services page === */
+  .services-page .serve .serve-title::before {
+    top: -70%;
+  }
+  .services-page .image-container img {
+    width: auto;
+  }
+  /* ===services page === */
 }
