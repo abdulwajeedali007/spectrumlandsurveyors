@@ -31,6 +31,13 @@ $(document).ready(function () {
   });
 });
 
+// removing contact form success or error message
+const successLabel = document.getElementById("success-message");
+
+setTimeout(() => {
+  successLabel.remove();
+}, 3000);
+
 // year adding in footer
 const year = new Date().getFullYear();
 document.querySelector(".year").innerText = `© ${year}. | ALLRIGHTS RESERVED`;

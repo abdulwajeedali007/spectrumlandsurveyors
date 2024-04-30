@@ -436,6 +436,69 @@ header .navbar-container .navbar-brand img {
 }
 
 /* ===Services page */
+/* ===Contact us === */
+.contact {
+  padding: 120px 0;
+}
+.contact .contact-heading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contact .contact-heading h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 600;
+  z-index: -1;
+  opacity: 0.2;
+  color: var(--light-golden-color);
+  text-transform: uppercase;
+}
+.contact .contact-heading h3 {
+  font-size: 36px;
+  color: var(--light-blue-color);
+}
+.contact .content h5 {
+  color: var(--light-blue-color);
+}
+
+.contact .contact-form .form-select,
+.contact .contact-form .form-control {
+  border: 1px solid var(--light-blue-color) !important;
+}
+.contact .contact-form .form-control {
+  color: var(--text-color) !important;
+}
+.contact .contact-form .form-select:focus,
+.contact .contact-form .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(203, 164, 40, 0.3) !important;
+}
+.contact .contact-form textarea.form-control {
+  height: auto !important;
+}
+.contact .contact-form .message-send-btn {
+  padding: 16px 32px;
+  border: 0;
+  background: var(--light-blue-color);
+  border-radius: 8px;
+  transition: all 0.3s linear;
+}
+.contact .contact-form .message-send-btn:hover {
+  transform: translateY(5px);
+}
+.alert.alert-danger,
+.alert.alert-success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* ===Contact us === */
 
 @media (min-width: 768px) {
   /* ===Banner === */
@@ -519,4 +582,13 @@ header .navbar-container .navbar-brand img {
     width: auto;
   }
   /* ===services page === */
+  /* ===contact us page === */
+  .contact .contact-heading h1 {
+    font-size: 80px;
+  }
+  .alert.alert-danger,
+  .alert.alert-success {
+    width: 50%;
+  }
+  /* ===contact us page ===*/
 }

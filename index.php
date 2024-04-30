@@ -120,7 +120,7 @@
                                             Embark on a spiritual journey like no other with our meticulously crafted
                                             Umrah Packages. At Details Travels & Tourism.
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
                                     </div>
@@ -140,7 +140,7 @@
                                             The holiday season is a time for joy, laughter, and creating
                                             unforgettable memories with loved ones. At Details Travels & Tourism.
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
                                     </div>
@@ -158,7 +158,7 @@
                                             Are you tired of the hassle and stress
                                             that often accompanies booking tickets for your favorite events?
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
 
@@ -177,7 +177,7 @@
                                             transportation is the lifeline of global commerce. Whether you're a multinational
                                             corporation, a small business.
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
                                     </div>
@@ -194,7 +194,7 @@
                                             Planning your next getaway or business trip? Look no further than Details Travels & Tourism for
                                             seamless hotel bookings worldwide.
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
                                     </div>
@@ -211,7 +211,7 @@
                                             Your trusted partner in navigating the complexities of international travel.
                                             Whether you're a seasoned globetrotter or embarking on your first overseas adventure
                                         </p>
-                                        <a href="#" class="service-btn">
+                                        <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
                                         </a>
                                     </div>

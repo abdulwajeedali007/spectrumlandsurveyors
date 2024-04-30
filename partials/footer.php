@@ -52,16 +52,16 @@
 
                          </p>
                          <p class="text">
-                             <span class="fas fa-phone-volume"></span> +971 585880646,0585880646
+                             <i class="bi bi-phone"></i> +971 585880646,0585880646
                          </p>
                          <p class="text">
-                             <span class="far fa-envelope"></span> Bin.ali@detailstravels.com
+                             <i class="bi bi-envelope"></i> Bin.ali@detailstravels.com
                          </p>
                          <p class="text">
-                             <span class="far fa-envelope"></span> Info@detailstravels.com
+                             <i class="bi bi-envelope"></i> Info@detailstravels.com
                          </p>
                          <p class="text">
-                             <span class="fas fa-globe"></span> www.goldenshaheen.ae
+                             <i class="bi bi-browser-chrome"></i> www.detailstravels.com
                          </p>
                      </div>
                  </div>
