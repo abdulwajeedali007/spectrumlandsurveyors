@@ -1,9 +1,9 @@
 :root {
-  --light-blue-color: #8ebece;
-  --golden-dark-color: #8d6914;
-  /* --light-golden-color: #c6a325; */
-  --light-golden-color: #cba228;
   --text-color: #37435b;
+  --white-color: #ffffff;
+
+  --primary-color: #e5194a;
+  --secondary-color: #00a0d4;
   --white-color: #ffffff;
 }
 html,
@@ -19,6 +19,14 @@ a {
 p {
   color: var(--text-color);
   font-weight: 300;
+}
+.header {
+  background-color: var(--text-color);
+  color: var(--white-color);
+}
+.header p {
+  font-size: 12px;
+  color: var(--white-color);
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -48,7 +56,7 @@ p {
   font-size: 28px;
   font-weight: 500;
   text-transform: uppercase;
-  color: var(--light-blue-color);
+  color: var(--primary-color);
 
   margin: 0;
 }
@@ -83,15 +91,40 @@ header .navbar-container {
 
 header .navbar-container .navbar-brand {
   width: auto;
-  height: 75px;
+  height: 56px;
   padding: 0;
 }
 
 header .navbar-container .navbar-brand img {
   height: 100%;
 }
+.services-container {
+  background-color: var(--text-color);
+  padding: 16px 0;
+}
+.services-container .item h6 {
+  margin: 0;
+  color: var(--white-color);
+  font-size: 14px;
+  text-align: center;
+}
+.services-slides {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    var(--text-color) 10% 90%,
+    transparent
+  );
+}
+.services-slides .owl-stage {
+  display: flex;
+  align-items: center;
+  transition-timing-function: linear !important;
+}
+
 .slider-container .carousel-indicators {
   justify-content: end;
+  margin-bottom: 2rem;
 }
 .slider-container .carousel-indicators [data-bs-target] {
   width: 8px;
@@ -102,8 +135,8 @@ header .navbar-container .navbar-brand img {
   border-radius: 8px;
 }
 .slider-container .carousel-indicators .active {
-  background: var(--light-blue-color);
-  border-color: var(--light-blue-color);
+  background: var(--primary-color);
+  border-color: var(--primary-color);
 }
 .slider-container .carousel-caption {
   position: absolute;
@@ -156,14 +189,14 @@ header .navbar-container .navbar-brand img {
   transition: all 0.3s linear;
 }
 .about a:hover {
-  color: var(--light-blue-color);
+  color: var(--primary-color);
   transform: translateX(5px);
 }
 /* === About us === */
 /* === Services === */
 .services {
   padding: 120px 0;
-  background: var(--text-color);
+  background: var(--secondary-color);
 }
 .services .services-heading {
   margin-bottom: 65px;
@@ -220,13 +253,13 @@ header .navbar-container .navbar-brand img {
 .services .content-container .description .service-sub-heading::before {
   content: "";
   position: absolute;
-  left: -8px;
-  top: 50%;
+  right: -8px;
+  top: -14px;
   transform: translateY(-50%);
-
-  width: 60px;
-  height: 125%;
-  background: var(--light-blue-color);
+  width: 32px;
+  height: 48px;
+  background: var(--white-color);
+  border-radius: 20px;
   z-index: -1;
 }
 .service-btn {
@@ -236,9 +269,9 @@ header .navbar-container .navbar-brand img {
   /* color: #fff; */
   width: 40px;
   height: 40px;
-  background: var(--light-blue-color);
+  background: var(--primary-color);
   padding: 16px;
-  color: var(--text-color);
+  color: var(--white-color);
   border-radius: 50%;
   transform: rotate(45deg);
   transition: all 0.3s linear;
@@ -266,7 +299,7 @@ header .navbar-container .navbar-brand img {
   background: var(--white-color);
 }
 .services .owl-carousel .owl-dots button.active {
-  background: var(--light-blue-color);
+  background: var(--primary-color);
 }
 /* === Services === */
 /* === Testimonials === */
@@ -331,12 +364,27 @@ header .navbar-container .navbar-brand img {
 /* === Footer  === */
 .footer {
   padding: 72px 0;
-  background-color: var(--text-color);
+  background-color: var(--secondary-color);
   color: var(--white-color);
 }
 .footer h5 {
-  color: var(--light-golden-color);
+  color: var(--text-color);
   text-transform: uppercase;
+}
+.footer .services_points p {
+  margin: 8px;
+  position: relative;
+}
+.footer .services_points p::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 50%;
+  background: var(--white-color);
+  border-radius: 0 50%;
 }
 .footer p,
 .footer p.social_links a {
@@ -352,11 +400,12 @@ header .navbar-container .navbar-brand img {
 .about .sub-heading h4 {
   font-size: 24px;
   text-transform: uppercase;
-  color: var(--light-blue-color);
+  color: var(--primary-color);
 }
 
 .aboutus-tag {
   background: var(--text-color);
+  color: var(--white-color);
   padding: 80px 0;
 }
 .aboutus-tag .content h3 {
@@ -367,13 +416,30 @@ header .navbar-container .navbar-brand img {
 }
 /* === About us page === */
 /* ===Services page */
+.accordion-button {
+  background-color: var(--text-color);
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--primary-color);
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) > .serve-title h2 {
+  color: var(--white-color) !important;
+}
+.accordion-button:not(.collapsed) > .serve-title::before {
+  color: var(--white-color) !important;
+}
 .services-page {
   padding: 120px 0;
 }
 .services-page .serve .serve-title h2 {
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: 600;
   text-transform: uppercase;
-  color: var(--light-blue-color);
+  color: var(--white-color);
 }
 .services-page .serve .serve-title {
   position: relative;
@@ -381,41 +447,59 @@ header .navbar-container .navbar-brand img {
 .services-page .serve .serve-title::before {
   position: absolute;
   /* content: "01"; */
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 600;
-  top: -40%;
+  top: -35%;
   left: 0;
-  opacity: 0.2;
-  color: var(--light-golden-color);
+  opacity: 0.4;
+  color: var(--white-color);
 }
 .services-page .serivce-item {
   margin: 80px 0;
   padding: 24px;
 }
 .services-page .serivce-item:nth-child(even) {
-  background: var(--light-blue-color);
+  background: var(--primary-color);
   border-radius: 20px;
 }
 .services-page .serve-title h2.even-title {
   color: var(--white-color);
 }
-.services-page .serve .serve-title.visit-visa::before {
+.services-page .serve .serve-title.land-survey::before {
   content: "01";
 }
-.services-page .serve .serve-title.umrah-package::before {
+.services-page .serve .serve-title.building-survey::before {
   content: "02";
 }
-.services-page .serve .serve-title.holiday-package::before {
+.services-page .serve .serve-title.agriculture-land-survey::before {
   content: "03";
 }
-.services-page .serve .serve-title.ticket-reservation::before {
+.services-page .serve .serve-title.topographics-survey::before {
   content: "04";
 }
-.services-page .serve .serve-title.transportation::before {
+.services-page .serve .serve-title.grid-contour-survey::before {
   content: "05";
 }
-.services-page .serve .serve-title.hotel-booking::before {
+.services-page .serve .serve-title.building-coloumn-marking::before {
   content: "06";
+}
+.services-page .serve .serve-title.layout-preparation::before {
+  content: "07";
+}
+.services-page .serve .serve-title.solar-panel-marking::before {
+  content: "08";
+}
+.services-page .serve .serve-title.road-bridges-survey::before {
+  content: "09";
+}
+.services-page .serve .serve-title.earth-work-qauntities::before {
+  content: "10";
+}
+.services-page .serve .serve-title.canal-survey::before {
+  content: "11";
+}
+.services-page .serve .serve-title.autocad-services::before {
+  content: "12";
 }
 .services-page .image-container {
   position: relative;
@@ -454,20 +538,21 @@ header .navbar-container .navbar-brand img {
   font-weight: 600;
   z-index: -1;
   opacity: 0.2;
-  color: var(--light-golden-color);
+  color: var(--secondary-color);
   text-transform: uppercase;
 }
 .contact .contact-heading h3 {
   font-size: 36px;
-  color: var(--light-blue-color);
+  color: var(--primary-color);
 }
+.contact h5,
 .contact .content h5 {
-  color: var(--light-blue-color);
+  color: var(--primary-color);
 }
 
 .contact .contact-form .form-select,
 .contact .contact-form .form-control {
-  border: 1px solid var(--light-blue-color) !important;
+  border: 1px solid var(--secondary-color) !important;
 }
 .contact .contact-form .form-control {
   color: var(--text-color) !important;
@@ -482,7 +567,8 @@ header .navbar-container .navbar-brand img {
 .contact .contact-form .message-send-btn {
   padding: 16px 32px;
   border: 0;
-  background: var(--light-blue-color);
+  color: #fff;
+  background: var(--secondary-color);
   border-radius: 8px;
   transition: all 0.3s linear;
 }
@@ -497,6 +583,12 @@ header .navbar-container .navbar-brand img {
   width: 80%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.branch {
+  border: 1px solid var(--secondary-color);
+  padding: 16px;
+  border-radius: 20px;
+  margin-bottom: 16px;
 }
 /* ===Contact us === */
 
@@ -515,24 +607,11 @@ header .navbar-container .navbar-brand img {
   }
 
   .slider-container .carousel-indicators [data-bs-target] {
-    width: 100px;
-    height: 75px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
 
-    border: 4px solid var(--light-blue-color);
-  }
-  .slider-container .carousel-indicators .active {
-    /* border: 4px solid #0a465d; */
-    border: 4px solid var(--light-golden-color);
-  }
-  .slider-container .carousel-indicators .slider-01-indicator {
-    background-image: url("../images/hotels-mini.jpg");
-  }
-  .slider-container .carousel-indicators .slider-02-indicator {
-    background-image: url("../images/curise-mini.jpg");
-  }
-  .slider-container .carousel-indicators .slider-03-indicator {
-    background-image: url("../images/hotel_booking_mini.jpg");
-  }
   .tag-line::before {
     left: -30%;
   }
@@ -576,13 +655,16 @@ header .navbar-container .navbar-brand img {
   /*=== About us page  */
   /* ===services page === */
   .services-page .serve .serve-title::before {
-    top: -70%;
+    top: -35%;
   }
   .services-page .image-container img {
     width: auto;
   }
   /* ===services page === */
   /* ===contact us page === */
+  .branch {
+    margin-bottom: 0;
+  }
   .contact .contact-heading h1 {
     font-size: 80px;
   }
