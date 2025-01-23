@@ -22,12 +22,38 @@ $(document).ready(function () {
 });
 // Testimonials
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".owl-carousel.testimonials-carousel").owlCarousel({
     items: 1,
     loop: true,
     margin: 10,
     autoplay: true,
     nav: true,
+  });
+});
+
+//Alternate Direction
+$(document).ready(function () {
+  $(".owl-carousel.services-slides").owlCarousel({
+    loop: true,
+    margin: 30,
+    stagePadding: 2,
+    smartSpeed: 2500,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: false,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 6,
+      },
+    },
   });
 });
 
