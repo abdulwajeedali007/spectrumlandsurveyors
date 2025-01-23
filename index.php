@@ -15,85 +15,32 @@
             <div class="carousel-item active">
                 <img src="./assets/images/hotels.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Land & Building Survey</h5>
+                    <h5>Holiday Packages</h5>
                     <p class="w-75">
-                        Our Land and Building Survey services provide accurate measurements and detailed assessments to support construction,
-                        development, and property management. From defining boundaries to evaluating structures, we ensure every detail is
-                        captured with precision using advanced technology.
+                        Discover the world with confidence, guided by our expert team who are dedicated to
+                        creating tailor-made itineraries that suit your unique preferences and interests.
                     </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./assets/images/curise.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Agriculture Land & Topographics Survey</h5>
-                    <p class="w-75">
-                        Our Agriculture Land and Topographic Survey services offer precise mapping and analysis to optimize land use and resource
-                        management. Whether it's planning irrigation systems, assessing soil conditions, or identifying elevation changes,
-                        we provide detailed insights using advanced tools.
-                    </p>
+                    <h5>Worldwide Transportation</h5>
+                    <p class="w-75">Whether you're a multinational corporation, a small business, or an individual seeking reliable transportation solutions, we've got you covered.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./assets/images/hotel_booking.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Layout Preparation & Solar Panel Marking</h5>
-                    <p class="w-75">
-                        We specialize in precise Layout Preparation and Solar Panel Marking to ensure efficient project execution.
-                        Our experts create detailed site layouts tailored to your needs, streamlining construction and development
-                        processes.
-                    </p>
+                    <h5>International Hotel Booking</h5>
+                    <p class="w-75">Planning your next getaway or business trip? Look no further than Details Travels & Tourism for seamless hotel bookings worldwide. </p>
                 </div>
             </div>
         </div>
 
     </div>
 </section>
-<section class="services-container">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="owl-carousel services-slides owl-theme">
-                    <div class="item">
-                        <h6>Land Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Building Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Agriculture Land Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Topographics Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Grid & Contour Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Building Coloumn Marking</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Layout Preparation</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Solar Panel Marking</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Road & Bridges Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Earth Work Qauntities</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Canal Survey</h6>
-                    </div>
-                    <div class="item">
-                        <h6>Autocad Services</h6>
-                    </div>
-                </div>
 
-            </div>
-</section>
 <main>
     <!-- About start -->
     <section class="about">
@@ -114,20 +61,22 @@
                         <p class="tag-line">How we are</p>
                         <div class="mb-4">
                             <h3 class="heading">Welcome to </h3>
-                            <h3 class="heading">Spectrum Land Surveyors</h3>
+                            <h3 class="heading">Details Travels & Tourism</h3>
                         </div>
-                        <!-- <p>Welcome to Spectrum Land Surveyors</p> -->
+                        <!-- <p>Welcome to Details Travels & Tourism</p> -->
+                        <p>Your gateway to unforgettable adventures and
+                            seamless journeys. With a commitment to excellence and a passion for exploration, we
+                            specialize in crafting personalized travel experiences that exceed expectations.</p>
                         <p>
-                            At Spectrum Land Surveyors, we take pride in offering comprehensive and accurate land surveying services with a
-                            strong foundation of experience and expertise. With over 10 years of dedicated service in the industry, we
-                            have built a reputation for reliability, precision, and client satisfaction.
+                            At Details Travels & Tourism, we believe that every journey should be an enriching and
+                            unforgettable experience. From the moment you embark on your adventure to the moment you
+                            return home, we'll be with you every step of the way, ensuring smooth transitions,
+                            authentic encounters, and memories that last a lifetime.
                         </p>
                         <p>
-                            Our mission is to continue evolving alongside industry advancements, ensuring we utilize the latest technologies and
-                            methods for optimal results. We are passionate about contributing to the successful completion of every project and
-                            are always ready to take on new challenges to further grow our portfolio.
+                            Discover the world with confidence, guided by our expert team who are dedicated to
+                            creating tailor-made itineraries that suit your unique preferences and interests.
                         </p>
-
                         <a href="/about.php">To know more about us</a>
                     </div>
                 </div>
@@ -147,7 +96,8 @@
                         </div>
                         <div>
                             <p class="service-description">
-                                "Delivering Precision, Expertise, and Excellence in Every Land Survey to Ensure Your Project's Success."
+                                Embark on your next adventure with Details Travels & Tourism, where the world is yours
+                                to explore.
                             </p>
                         </div>
                     </div>
@@ -158,17 +108,37 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme services-carousel">
                         <div>
+
                             <div class="content-container">
                                 <!-- <div class="service-img-container">
                                         <img src="./assets/images/curise-service.svg" alt="">
                                     </div> -->
                                 <div class="description">
-                                    <h4 class="service-sub-heading text-white">Land <br> Survey</h4>
+                                    <h4 class="service-sub-heading text-white">Umrah <br> Package</h4>
                                     <div>
                                         <p>
-                                            A precise land survey is the foundation of any successful project. At Spectrum Land Surveyors,
-                                            we specialize in offering accurate and reliable land surveying solutions for residential,
-                                            commercial, and industrial needs.
+                                            Embark on a spiritual journey like no other with our meticulously crafted
+                                            Umrah Packages. At Details Travels & Tourism.
+                                        </p>
+                                        <a href="/services.php" class="service-btn">
+                                            <i class="bi bi-arrow-up"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="content-container">
+
+                                <div class="description">
+                                    <h4 class="service-sub-heading text-white">Holiday <br> Packages</h4>
+                                    <div>
+                                        <p>
+                                            The holiday season is a time for joy, laughter, and creating
+                                            unforgettable memories with loved ones. At Details Travels & Tourism.
                                         </p>
                                         <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
@@ -180,31 +150,13 @@
                         <div>
                             <div class="content-container">
 
-                                <div class="description">
-                                    <h4 class="service-sub-heading text-white">Building <br> Survey</h4>
-                                    <div>
-                                        <p>
-                                            Whether you are purchasing a new property, managing a building, or planning renovations,
-                                            our expert surveyors offer in-depth insights into the condition, structure, and overall
-                                            integrity of your building.
-                                        </p>
-                                        <a href="/services.php" class="service-btn">
-                                            <i class="bi bi-arrow-up"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="content-container">
-
 
                                 <div class="description">
-                                    <h4 class="service-sub-heading text-white">Agriculture <br> Land Survey</h4>
+                                    <h4 class="service-sub-heading text-white">Ticket <br> Reservation</h4>
                                     <div>
                                         <p>
-                                            Our expert team utilizes state-of-the-art technology to ensure accurate
-                                            measurements and detailed land analysis for agricultural properties of all sizes.
+                                            Are you tired of the hassle and stress
+                                            that often accompanies booking tickets for your favorite events?
                                         </p>
                                         <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
@@ -217,11 +169,13 @@
                         <div>
                             <div class="content-container">
                                 <div class="description">
-                                    <h4 class="service-sub-heading text-white">Topographics Survey</h4>
+                                    <h4 class="service-sub-heading text-white">Worldwide <br> Transporation</h4>
                                     <div>
                                         <p>
-                                            Our expert surveyors use advanced technology and precise techniques to create accurate,
-                                            detailed topographic maps of your land, which are essential for making informed decisions.
+
+                                            At Details Travels & Tourism, we understand that the world is interconnected, and efficient
+                                            transportation is the lifeline of global commerce. Whether you're a multinational
+                                            corporation, a small business.
                                         </p>
                                         <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
@@ -233,11 +187,12 @@
                         <div>
                             <div class="content-container">
                                 <div class="description">
-                                    <h4 class="service-sub-heading text-white">Grid & Contour Survey</h4>
+                                    <h4 class="service-sub-heading text-white">Hotel <br> Bookings</h4>
                                     <div>
                                         <p>
-                                            For reliable and detailed Grid & Contour Surveys, trust Spectrum Land Surveyors to provide the accurate
-                                            data you need for successful project planning and development.
+
+                                            Planning your next getaway or business trip? Look no further than Details Travels & Tourism for
+                                            seamless hotel bookings worldwide.
                                         </p>
                                         <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
@@ -249,11 +204,12 @@
                         <div>
                             <div class="content-container">
                                 <div class="description">
-                                    <h4 class="service-sub-heading text-white">Building Coloumn Marking</h4>
+                                    <h4 class="service-sub-heading text-white">Vist <br> Visa's</h4>
                                     <div>
                                         <p>
-                                            If you're looking for reliable and precise Building Column Marking services, contact Spectrum Land Surveyors
-                                            today. We're here to support your project with the accuracy and expertise it deserves.
+
+                                            Your trusted partner in navigating the complexities of international travel.
+                                            Whether you're a seasoned globetrotter or embarking on your first overseas adventure
                                         </p>
                                         <a href="/services.php" class="service-btn">
                                             <i class="bi bi-arrow-up"></i>
@@ -277,26 +233,29 @@
                         <p class="tag-line">Satisfied Customers</p>
                         <h3 class="heading">Testimonials</h3>
                         <p class="sub-description">
-                            Our clients' words speak volumes about the quality of our services and the trust we strive to build.
-                            Here's what they have to say about their experiences with us.
+                            Whether you're dreaming of a luxurious escape to pristine beaches, an exhilarating
+                            safari through rugged landscapes, or a cultural immersion in vibrant cities, we have the
+                            expertise to turn your dreams into reality.
+
+
                         </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-10">
-                    <div class="owl-carousel owl-theme testimonials-carousel">
+                    <div class="owl-carousel owl-theme">
                         <div>
 
                             <div class="content-container">
                                 <div class="profile-info">
                                     <img src="./assets/images/office-man.png" alt="">
-                                    <h6>Khudus Ahmed</h6>
-                                    <p>Project Manager</p>
+                                    <h6>Edward Jhon</h6>
+                                    <p>Software Engineer</p>
                                 </div>
                                 <p class="description">
-                                    Thanks to their precise land survey, we had a crystal-clear understanding of our property boundaries.
-                                    Their team’s expertise and attention to detail made all the difference!
+                                    As someone who travels frequently for business and leisure, I've dealt with my fair share of travel agencies. However, Details Travels & Tourism truly stands out from the rest. Their dedication to customer satisfaction is evident in every interaction. Whether it's a last-minute hotel booking or a complex travel itinerary, they always deliver with professionalism and efficiency.
+
                                 </p>
 
                             </div>
@@ -307,11 +266,10 @@
                                 <div class="profile-info">
                                     <img src="./assets/images/office-man.png" alt="">
                                     <h6>Abdul Rasheed</h6>
-                                    <p>Building Owner</p>
+                                    <p>Event Manager</p>
                                 </div>
                                 <p class="description">
-                                    The building survey they conducted was incredibly thorough and detailed.
-                                    Their insights helped us identify potential issues early, saving us time and money in the construction process.
+                                    My experience with Details Travels & Tourism was nothing short of amazing. From seamless hotel bookings to hassle-free ticket reservations, they made my journey stress-free. Their attention to detail and commitment to customer satisfaction truly stood out. I highly recommend them for anyone planning their Hajj or Umrah pilgrimage.
                                 </p>
 
                             </div>
@@ -324,21 +282,8 @@
                                     <p>Business Owner</p>
                                 </div>
                                 <p class="description">
-                                    They prepared a flawless layout for our housing project.
-                                    Their professionalism and accuracy ensured a smooth approval process and efficient execution.
-                                </p>
 
-                            </div>
-                        </div>
-                        <div>
-                            <div class="content-container">
-                                <div class="profile-info">
-                                    <img src="./assets/images/office-man.png" alt="">
-                                    <h6>Reddy</h6>
-                                    <p>Agriculture Land Owner</p>
-                                </div>
-                                <p class="description">
-                                    The agricultural land survey was spot-on! Their data helped us optimize land use and plan irrigation effectively. Highly recommended for farmers and developers alike!
+                                    Planning my holiday has never been simpler thanks to this Details Travels & Tourism incredible holiday packages! From exotic destinations to cozy getaways, they offer a wide range of options to suit every traveler's taste and budget. The packages are meticulously crafted, covering everything from accommodations to activities, ensuring a stress-free and memorable vacation.
                                 </p>
 
                             </div>

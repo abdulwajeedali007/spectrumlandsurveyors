@@ -5,12 +5,13 @@
              <div class="row">
                  <div class="col-md-4">
                      <div class="content">
-                         <h5>About Us</h5>
+                         <h5 class="fw-normal">About Us</h5>
                          <hr />
                          <p class="text">
-                             At Spectrum Land Surveyors, we provide precise and reliable land surveying services
-                             tailored to your needs. With advanced technology and expertise, we ensure accurate measurements for clear and confident project planning.
-                             Trust us to deliver professional solutions that lay the foundation for your success.
+                             At Details Travels & Tourism, we believe that every journey should be an enriching
+                             and unforgettable experience. From the moment you embark on your adventure to the
+                             moment you return home, we'll be with you every step of the way, ensuring smooth
+                             transitions, authentic encounters, and memories that last a lifetime.
                          </p>
                          <p class="social_links">
                              <a href="#"><i class="bi bi-facebook"></i></a>
@@ -20,51 +21,47 @@
                          </p>
                      </div>
                  </div>
-                 <div class="col-md-5">
+                 <div class="col-md-4">
                      <div class="content">
-                         <h5>Services</h5>
+                         <h5 class="fw-normal">Services</h5>
                          <hr />
                          <div class="row">
                              <div class="col-md-6">
                                  <div class="services_points">
-                                     <p>Land Survey</p>
-                                     <p>Building Survey</p>
-                                     <p>Agriculture Land Survey</p>
-                                     <p>Topographics Survey</p>
-                                     <p>Grid & Contour Survey</p>
-                                     <p>Building Coloumn Marking</p>
-
+                                     <p>Umrah Packages</p>
+                                     <p>Holiday Packages</p>
+                                     <p>Ticket Reservation</p>
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="services_points">
-                                     <p>Layout Preparation</p>
-                                     <p>Solar Panel Marking</p>
-                                     <p>Road & Bridges Survey</p>
-                                     <p>Earth Work Quantities</p>
-                                     <p>Canal Survey</p>
-                                     <p>Autocad Services</p>
+                                     <p>Worldwide Transporation</p>
+                                     <p>Hotel Bookings</p>
+                                     <p>Vist Visa's</p>
                                  </div>
                              </div>
                          </div>
                      </div>
                  </div>
-                 <div class="col-md-3">
+                 <div class="col-md-4">
                      <div class="content">
-                         <h5>Contact Us</h5>
+                         <h5 class="fw-normal">Contact Us</h5>
                          <hr />
                          <p>
-                             Near ya habeeb super market, Ahmedpura Colony, Nizamabad - 503001
+                             Madina Zayed Commercial Tower,1st Floor , Max home business Center, office number 113...
 
                          </p>
                          <p class="text">
-                             <i class="bi bi-phone"></i> +91 9030805051, 8328183369,
+                             <i class="bi bi-phone"></i> +971 585880646,0585880646
                          </p>
                          <p class="text">
-                             <i class="bi bi-envelope"></i> info@spectrumlandsurveyors.com,
+                             <i class="bi bi-envelope"></i> Bin.ali@detailstravels.com
                          </p>
                          <p class="text">
-                             <i class="bi bi-browser-chrome"></i> www.spectrumlandsurveyors.com.
+                             <i class="bi bi-envelope"></i> Info@detailstravels.com
+                         </p>
+                         <p class="text">
+                             <i class="bi bi-browser-chrome"></i> www.detailstravels.com
                          </p>
                      </div>
                  </div>

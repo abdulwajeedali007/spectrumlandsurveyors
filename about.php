@@ -8,9 +8,7 @@
              <div class="row">
                  <div class="col">
                      <h2>About Us</h2>
-                     <p class="d-none d-md-block w-75">
-                         Our mission is to provide dependable land surveying services that empower clients to make informed decisions, streamline their projects, and bring their visions to life with clarity and confidence.
-                     </p>
+                     <p class="d-none d-md-block">Details Travels & Tourism, we believe that every journey should be an enriching and unforgettable experience</p>
                  </div>
              </div>
          </div>
@@ -29,16 +27,27 @@
 
 
                      <p>
-                         At Spectrum Land Surveyors, we take pride in offering comprehensive and accurate land surveying services with a strong foundation of experience and expertise. With over 10 years of dedicated service in the industry, we have built a reputation for reliability, precision, and client satisfaction.
+                         At Details Travels & Tourism, we believe that travel is more than just visiting new places;
+                         it's about creating unforgettable experiences, forging connections, and discovering the world
+                         in all its diversity. Since our inception, we've been dedicated to curating exceptional travel
+                         experiences that cater to every wanderlust soul.
                      </p>
                      <p>
-                         Having successfully completed 50+ projects, we bring invaluable experience to each project we undertake, whether it's a small residential development or a large-scale commercial venture. Our team is committed to delivering detailed, professional surveys that provide our clients with the critical data they need to move forward with confidence.
+                         Our journey began with a vision to redefine the travel industry by offering personalized,
+                         detail-oriented services that exceed expectations. With years of expertise and a passion
+                         for exploration, we've evolved into a trusted name in the travel and tourism sector,
+                         known for our commitment to quality, integrity, and customer satisfaction.
                      </p>
                      <p>
-                         Our mission is to continue evolving alongside industry advancements, ensuring we utilize the latest technologies and methods for optimal results. We are passionate about contributing to the successful completion of every project and are always ready to take on new challenges to further grow our portfolio.
+                         What sets us apart is our meticulous attention to detail. We understand that every traveler is unique,
+                         with distinct preferences and aspirations. That's why we take the time to listen and tailor our services
+                         to match your individual needs, ensuring that every journey with us is tailored to perfection.
+                         At Details Travels & Tourism, we're more than just a travel agency; we're your trusted partner in adventure,
+                         your gateway to the world's wonders, and your companion on the journey of a lifetime. Join us as we embark on
+                         this extraordinary voyage together, and let's make every moment count.
                      </p>
                      <p>
-                         We believe in building long-term relationships with our clients, providing them with expert advice and reliable service every step of the way. At Spectrum Land Surveyors, your project's success is our priority.
+                         Discover the details. Experience the difference. Details Travels & Tourism – Your passport to unforgettable adventures.
                      </p>
                  </div>
              </div>
@@ -47,7 +56,7 @@
          <div class="row">
              <div class="col">
                  <div class="sub-heading">
-                     <h4>"Precision in Every Measurement, Excellence in Every Project."</h4>
+                     <h4>Located in Madina Zayed Commercial Tower,1st Floor , Max home business Center, office number 113.</h4>
                  </div>
              </div>
          </div>
@@ -60,7 +69,7 @@
          <div class="row">
              <div class="col">
                  <div class="content">
-                     <h3>Transforming complex land measurements into clear, actionable data to help you make informed decisions for your projects, no matter the scale.</h3>
+                     <h3>Travel with Precision, Explore with Passion</h3>
                  </div>
              </div>
          </div>
@@ -76,26 +85,29 @@
                      <p class="tag-line">Satisfied Customers</p>
                      <h3 class="heading">Testimonials</h3>
                      <p class="sub-description">
-                         Our clients' words speak volumes about the quality of our services and the trust we strive to build.
-                         Here's what they have to say about their experiences with us.
+                         Whether you're dreaming of a luxurious escape to pristine beaches, an exhilarating
+                         safari through rugged landscapes, or a cultural immersion in vibrant cities, we have the
+                         expertise to turn your dreams into reality.
+
+
                      </p>
                  </div>
              </div>
          </div>
          <div class="row justify-content-center">
              <div class="col-md-10">
-                 <div class="owl-carousel owl-theme testimonials-carousel">
+                 <div class="owl-carousel owl-theme">
                      <div>
 
                          <div class="content-container">
                              <div class="profile-info">
                                  <img src="./assets/images/office-man.png" alt="">
-                                 <h6>Khudus Ahmed</h6>
-                                 <p>Project Manager</p>
+                                 <h6>Edward Jhon</h6>
+                                 <p>Software Engineer</p>
                              </div>
                              <p class="description">
-                                 Thanks to their precise land survey, we had a crystal-clear understanding of our property boundaries.
-                                 Their team’s expertise and attention to detail made all the difference!
+                                 As someone who travels frequently for business and leisure, I've dealt with my fair share of travel agencies. However, Details Travels & Tourism truly stands out from the rest. Their dedication to customer satisfaction is evident in every interaction. Whether it's a last-minute hotel booking or a complex travel itinerary, they always deliver with professionalism and efficiency.
+
                              </p>
 
                          </div>
@@ -106,11 +118,10 @@
                              <div class="profile-info">
                                  <img src="./assets/images/office-man.png" alt="">
                                  <h6>Abdul Rasheed</h6>
-                                 <p>Building Owner</p>
+                                 <p>Event Manager</p>
                              </div>
                              <p class="description">
-                                 The building survey they conducted was incredibly thorough and detailed.
-                                 Their insights helped us identify potential issues early, saving us time and money in the construction process.
+                                 My experience with Details Travels & Tourism was nothing short of amazing. From seamless hotel bookings to hassle-free ticket reservations, they made my journey stress-free. Their attention to detail and commitment to customer satisfaction truly stood out. I highly recommend them for anyone planning their Hajj or Umrah pilgrimage.
                              </p>
 
                          </div>
@@ -123,21 +134,8 @@
                                  <p>Business Owner</p>
                              </div>
                              <p class="description">
-                                 They prepared a flawless layout for our housing project.
-                                 Their professionalism and accuracy ensured a smooth approval process and efficient execution.
-                             </p>
 
-                         </div>
-                     </div>
-                     <div>
-                         <div class="content-container">
-                             <div class="profile-info">
-                                 <img src="./assets/images/office-man.png" alt="">
-                                 <h6>Reddy</h6>
-                                 <p>Agriculture Land Owner</p>
-                             </div>
-                             <p class="description">
-                                 The agricultural land survey was spot-on! Their data helped us optimize land use and plan irrigation effectively. Highly recommended for farmers and developers alike!
+                                 Planning my holiday has never been simpler thanks to this Details Travels & Tourism incredible holiday packages! From exotic destinations to cozy getaways, they offer a wide range of options to suit every traveler's taste and budget. The packages are meticulously crafted, covering everything from accommodations to activities, ensuring a stress-free and memorable vacation.
                              </p>
 
                          </div>
